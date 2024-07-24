@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center; 
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, #FFA732, #EF4040, #C21292, #711DB0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.info {
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+.info ol {
+    list-style-type: decimal; 
+    padding-left: 50px; 
+}
+.info ul {
+    list-style-type: circle; 
+    padding-left: 50px; 
+    margin-top: 10px;
+}
+.info ul li {
+    margin-bottom: 10px; 
+}
+img {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
